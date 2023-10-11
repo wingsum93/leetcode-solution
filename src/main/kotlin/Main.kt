@@ -1,4 +1,4 @@
-import array.Solution
+import array.Q9
 
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -7,14 +7,17 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
-    val s = Solution()
-    val input1 = intArrayOf(2, 7, 11, 15)
-    val input2 = intArrayOf(3, 2, 4)
-    val input3 = intArrayOf(3, 3)
+    val s = Q9.Solution()
+    val i1 = 121
+    val i2 = -121
+    val i3 = 10
+    val i4 = 11
+    val i5 = 123454321
 
-    val target = 6
-    println("Program arguments: ${s.twoSum(input1, 9).toGsonString()}")
-    println("Program arguments: ${s.twoSum(input2, 6).toGsonString()}")
-    println("Program arguments: ${s.twoSum(input3, 6).toGsonString()}")
+    println("Program arguments: ${s.isPalindrome(i1)}")
+    println("Program arguments: ${s.isPalindrome(i2)}")
+    println("Program arguments: ${s.isPalindrome(i3)}")
+    println("Program arguments: ${s.isPalindrome(i4)}")
+    println("Program arguments: ${s.isPalindrome(i5)}")
 
 }
