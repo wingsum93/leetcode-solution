@@ -1,4 +1,4 @@
-import array.Q9
+import array.Q13
 
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -7,17 +7,13 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
-    val s = Q9.Solution()
-    val i1 = 121
-    val i2 = -121
-    val i3 = 10
-    val i4 = 11
-    val i5 = 123454321
+    val s = Q13.Solution()
+    val i1 = "III"
+    val i2 = "LVIII"
+    val i3 = "MCMXCIV"
 
-    println("Program arguments: ${s.isPalindrome(i1)}")
-    println("Program arguments: ${s.isPalindrome(i2)}")
-    println("Program arguments: ${s.isPalindrome(i3)}")
-    println("Program arguments: ${s.isPalindrome(i4)}")
-    println("Program arguments: ${s.isPalindrome(i5)}")
+    println("Program arguments: ${s.romanToInt(i1)}")
+    println("Program arguments: ${s.romanToInt(i2)}")
+    println("Program arguments: ${s.romanToInt(i3)}")
 
 }
