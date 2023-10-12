@@ -2,5 +2,6 @@
 
 - [x] Q1 Two Sum
 - [x] Q9 Palindrome Number
-- [ ] Q13 Roman to Integer
-- [ ] QX ~
+- [x] Q13 Roman to Integer
+- [x] Q905 Sort Array By Parity
+- 
